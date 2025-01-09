@@ -1,6 +1,9 @@
 # Oracle-Linux-Virtual-Machine
+
 This project provides a comprehensive setup for creating and managing an Oracle Linux virtual machine. It includes pre-configured scripts and guidelines to simplify deployment, ensuring a seamless experience for developers and system administrators. Perfect for learning, testing, or deploying Oracle Linux environments.
 
+**1. Installation of Oracle Virtual Box**
+===================
 
 **Step 1:** Download VirtualBox
 
@@ -53,3 +56,67 @@ Once the installation is complete, ensure the Start Oracle VM VirtualBox after i
 Open Oracle VM VirtualBox Manager. Confirm that the application launches correctly and that no errors are shown. You are now ready to create and manage virtual machines!
 
 ![image](https://github.com/user-attachments/assets/28b998f7-4122-4edf-ae67-6cba6415d236)
+
+**2. Installation of Oracle Linux 7.8 Virtual Machine**
+===========================================
+
+Step 1: Download Oracle Linux ISO
+
+Visit the Oracle Linux Downloads page https://yum.oracle.com/oracle-linux-downloads.html?er=221886 
+Download the Oracle Linux 7 ISO file (choose the latest release of Oracle Linux 7).
+
+Step 2: Create a New Virtual Machine in VirtualBox
+
+Open VirtualBox. Click on New in the toolbar. Name and Operating System: Name your VM (e.g., "Oracle Linux 7"). Set Type to Linux. Set Version to Oracle (64-bit).
+
+![image](https://github.com/user-attachments/assets/7bebc619-97ef-4e1a-9aa0-e68e7de3f0cc)
+
+Click Next.
+
+Memory Size: Allocate at least 2 GB (2048 MB) of RAM. For better performance, 4 GB or more is recommended.
+
+![image](https://github.com/user-attachments/assets/894e274b-d50c-4cfb-b847-3a70a25e5e8b)
+
+Click Next.
+
+Hard Disk: Select Create a virtual hard disk now. Click Create.
+
+![image](https://github.com/user-attachments/assets/c8eb6007-2d43-40b1-b637-25394ae56cc8)
+
+Hard Disk File Type: Choose VDI (VirtualBox Disk Image).
+
+![image](https://github.com/user-attachments/assets/9f5cd79d-5d0c-461a-8975-4830525e4b7e)
+
+Click Next.
+
+Storage on Physical Hard Disk: Select Dynamically allocated for flexible disk space usage.
+
+Click Next.
+
+File Location and Size: Set the size of the virtual disk (at least 20 GB for Oracle Linux 7).
+
+![image](https://github.com/user-attachments/assets/abbd4d3b-4c9c-44b6-8080-e4fc10b50d57)
+
+Click Create.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
